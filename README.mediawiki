@@ -1,0 +1,42 @@
+= FX-602P Bundle =
+
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=6031
+
+== Description ==
+
+This is a syntax bundle for the FX-602P series of pocket calculators. It is uses the syntax by the FX-603P serial interface and has optional support for the syntax used by FP-10 printer.
+
+== Installation ==
+
+Install from https://github.com/krischik/vim-fx602p using dein (https://github.com/Shougo/dein.vim) or similar:
+
+{{code|lang=vim|
+call dein#begin('$HOME/vimfiles/bundles')
+call dein#add('krischik/vim-fx602p')
+call dein#end()
+call dein#install()
+}}
+
+== References ==
+
+{|
+|+ FX-602P Bundle
+|-
+| Vim-Script	|| https://www.vim.org/scripts/script.php?script_id=6031
+|-
+| Source	|| https://github.com/krischik/vim-fx602p
+|-
+| Wiki		|| https://github.com/krischik/vim-fx602p/wiki
+|-
+| Releases	|| https://github.com/krischik/vim-fx602p/releases
+|-
+| Issues	|| https://github.com/krischik/vim-fx602p/issues
+|-
+| Discussions	|| https://github.com/krischik/vim-fx602p/discussions
+|}
+
+==Comments==
+
+/* vim: set textwidth=0 wrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab : */
+/* vim: set filetype=mediawiki fileencoding=utf8 fileformat=unix foldmethod=marker : */
+/* vim: set nospell spelllang=en_gb : */
