@@ -3,38 +3,38 @@
 "     Language: FX-602P and FX-603P calculator programs and printouts
 "    Copyright: Copyright © 2007 … 2022 Martin Krischik
 "   Maintainer: Martin Krischik <krischik@users.sourceforge.net>
-"      Version: 1.0
+"      Version: 0.0
 "      History: 26.08.2022 MK A new FX-602P and FX-603P Filetype Bundle
+"               02.10.2022 MK Move to deim compatbile github repository
 "    Help Page: ft-fx602p-plugin
 "------------------------------------------------------------------------------
-" Vim syntax file
 
-"if exists("b:current_syntax") || version < 700
-"    finish
-"endif
+if exists("b:current_syntax") || version < 700
+    finish
+endif
 
 let b:current_syntax = "fx602p"
 
 syntax case match
 
-syntax match fx602pComment                 /^All Program List$/
-syntax match fx602pComment                 /^Memory List$/
-syntax match fx602pComment                 /^END$/
+syntax match fx602pComment                /^All Program List$/
+syntax match fx602pComment                /^Memory List$/
+syntax match fx602pComment                /^END$/
 
-syntax match fx602pNumber                  /\s[0-9.]\{-1,}\s/hs=s+1,he=e-1
-syntax match fx602pNumber                  /^[0-9.]\{-1,}\s/he=e-1
-syntax match fx602pNumber                  /\s[0-9.]\{-1,}$/hs=s+1
-syntax match fx602pNumber                  /^[0-9.]\{-1,}$/
+syntax match fx602pNumber                 /\s[0-9.]\{-1,}\s/hs=s+1,he=e-1
+syntax match fx602pNumber                 /^[0-9.]\{-1,}\s/he=e-1
+syntax match fx602pNumber                 /\s[0-9.]\{-1,}$/hs=s+1
+syntax match fx602pNumber                 /^[0-9.]\{-1,}$/
 
 syntax match fx602pString		  /".\{-}"/
 
-syntax match fx602pOperator                /\(\s\|\n\)[-+*\/=]\(\s\|\n\)/hs=s+1,he=e-1
-syntax match fx602pOperator                /\<[-+*/=]\>/
-syntax match fx602pOperator                /+\/-/
+syntax match fx602pOperator               /\(\s\|\n\)[-+*\/=]\(\s\|\n\)/hs=s+1,he=e-1
+syntax match fx602pOperator               /\<[-+*/=]\>/
+syntax match fx602pOperator               /+\/-/
 
 " Printout alternatives
 
-syntax match fx602pOperator                /\<[×÷±]\>/
+syntax match fx602pOperator               /\<[×÷±]\>/
 
 
 for b:Item in g:fx602p#Keywords
