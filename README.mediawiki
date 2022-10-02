@@ -1,0 +1,22 @@
+FX-602P Bundle
+
+Welcome to the FX-602P wiki!
+
+{|
+|+ FX-602P Bundle
+|-
+| Vim-Script  || https://www.vim.org/scripts/script.php?script_id=6031
+|-
+| Source      || https://github.com/krischik/vim-fx602p
+|-
+| Wiki        || https://github.com/krischik/vim-fx602p/wiki
+|-
+| Releases    || https://github.com/krischik/vim-fx602p/releases 
+|-
+| Issues      || https://github.com/krischik/vim-fx602p/issues 
+|-
+| Discussions || https://github.com/krischik/vim-fx602p/discussions 
+|}
+
+==Comments==
+
