@@ -3,7 +3,7 @@
 "     Language: FX-602P and FX-603P calculator programs and printouts
 "    Copyright: Copyright © 2007 … 2022 Martin Krischik
 "   Maintainer: Martin Krischik <krischik@users.sourceforge.net>
-"      Version: 0.0
+"      Version: 0.1
 "      History: 26.08.2022 MK A new FX-602P and FX-603P Filetype Bundle
 "               02.10.2022 MK Move to deim compatbile github repository
 "    Help Page: ft-fx602p-plugin
