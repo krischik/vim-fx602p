@@ -10,12 +10,10 @@ This is a syntax bundle for the FX-602P series of pocket calculators. It is uses
 
 Install from https://github.com/krischik/vim-fx602p using dein (https://github.com/Shougo/dein.vim) or similar:
 
-{{code|lang=vim|
-call dein#begin('$HOME/vimfiles/bundles')
-call dein#add('krischik/vim-fx602p')
-call dein#end()
-call dein#install()
-}}
+    call dein#begin('$HOME/vimfiles/bundles')
+    call dein#add('krischik/vim-fx602p')
+    call dein#end()
+    call dein#install()
 
 == References ==
 
