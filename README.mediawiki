@@ -35,6 +35,6 @@ Install from https://github.com/krischik/vim-fx602p using dein (https://github.c
 
 ==Comments==
 
-/* vim: set textwidth=0 wrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab : */
-/* vim: set filetype=mediawiki fileencoding=utf8 fileformat=unix foldmethod=marker : */
-/* vim: set nospell spelllang=en_gb : */
+ /* vim: set textwidth=0 wrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab : */
+ /* vim: set filetype=mediawiki fileencoding=utf8 fileformat=unix foldmethod=marker : */
+ /* vim: set nospell spelllang=en_gb : */
